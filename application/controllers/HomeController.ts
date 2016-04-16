@@ -1,7 +1,7 @@
 module Home {
     export class HomeController {
-        private scope : IHomeScope;
-        
+        private scope: IHomeScope;
+
         constructor($scope: IHomeScope) {
             this.scope = $scope;
             this.setGreeting();
@@ -10,9 +10,9 @@ module Home {
         public static $inject = [
             '$scope'
         ];
-        
+
         private setGreeting = () => {
-            this.scope.greeting = 'hello2';
+            this.scope.greeting = 'blah';
         }
     }
 }

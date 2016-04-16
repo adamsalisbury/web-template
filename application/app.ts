@@ -14,3 +14,6 @@ routerApp.config(($stateProvider, $urlRouterProvider) => {
         templateUrl: '/templates/partial-about.html'
     })
  });
+
+
+// Cool
