@@ -9,7 +9,7 @@ routerApp.config(($stateProvider, $urlRouterProvider) => {
         templateUrl: '/templates/partial-home.html',
         controller: Home.HomeController
     })
-    .state('about', {
+    .state('aboutr', {
         url: '/about',
         templateUrl: '/templates/partial-about.html'
     })
