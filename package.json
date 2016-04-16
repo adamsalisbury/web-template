@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build-typescript": "tsc",
+        "build-sass": "node-sass --output-style compressed ./Style/style.scss ./Style/style.css",
+        "build": "npm run build-typescript && npm run build-sass"
+    }
+}

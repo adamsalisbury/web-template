@@ -1,0 +1,24 @@
+{
+  "name": "npmTask",
+  "version": "0.1.0",
+  "suppressTaskName": true,
+  "command": "npm",
+  "isShellCommand": true,
+  "args": [
+    "run"
+  ],
+  "tasks": [
+    {
+      //Build Task
+      "taskName": "build",
+      //Run On Shift+Ctrl+B
+      "isBuildCommand": true,
+      //Don't run when Shift+Ctrl+T
+      "isTestCommand": false,
+      // Show the output window if error any
+      "showOutput": "always",
+      //Npm Task Name
+      "args": ["build"]
+    }
+  ]
+}
